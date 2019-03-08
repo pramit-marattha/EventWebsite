@@ -1,0 +1,225 @@
+q {
+    text-decoration: green;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+q:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.Go_back {
+    background-color: #fff609;
+    color: #0909b8;
+    border-radius: 0%;
+  
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+body
+{
+	margin:0;
+	padding:0;
+	background-color:#403b5e;
+}
+
+#Main_Tiles
+{
+	margin:1% 0 0 11%;
+	float: center;
+}
+
+.tileBlockWhite
+{
+	background-color:#F6F6F6;
+	height:280px;
+	width:42%;
+	margin-left:43%;
+}
+
+.tileBlockWhite h10
+{
+	margin:0;
+	padding-left:50px;
+	font-size:28px;
+	color:#000000;
+	font-weight:bold;
+}
+
+.tileBlockWhite form
+{
+	margin-top:3%;
+	margin-left:5%;
+}
+
+.tileBlockWhite .location
+{
+	width:150px;
+}
+
+.tileBlockWhite .thirdBox
+{
+	width:70px;
+}
+
+.tileBlockWhite form select
+{
+	width:10%;
+}
+.words
+{
+	background:url(../images/wat.jpg);
+	background-size:cover;
+	height:280px;
+	width:42%;
+	float:left;
+}
+
+.words h1
+{
+	color:#FFFFFF;
+	padding:15px 0 0 15px;
+	font-size:28px;
+}
+
+.words .enlarge
+{
+	font-size:200%;
+}
+
+
+.tileBlockOrange
+{
+	background:#FF603F;
+	background-size:cover;
+	height:280px;
+	width:20%;
+	margin-left:43%;
+}
+
+.tileBlockOrange h2
+{
+	color:#FFFFFF;
+	padding:20px 55% 0 0;
+	text-align:center;
+	font-size:28px;
+}
+
+.tileBlockOrange ul
+{
+	list-style:square;
+	color: #FFFFFF;
+	
+}
+
+.tileBlockOrange li
+{
+	line-height:30px;
+	font-size:15px;
+}
+
+.tileBlockOrange li a
+{
+	color:#FFFFFF;	
+}
+
+.tileBlockYellow
+{
+	background:#FFB34D;
+	background-size:cover;
+	height:280px;
+	width:21%;
+	float:right;
+	margin-top:-280px;
+	margin-right:15%;
+	color:#FFFFFF;
+}
+
+.tileBlockYellow h3
+{
+	padding:15px 0 0 20px;
+	font-size:25px;
+}
+
+.tileBlockYellow h4
+{
+	margin-top:-28px;
+	margin-left:50%;
+	font-size:13px;
+}
+
+.tileBlockYellow h5
+{
+	padding:30px 0 0 20px;
+	font-size:25px;
+}
+
+.tileBlockYellow .huge
+{
+	font-size:250%;
+	font-weight:bold;
+}
+
+.tileBlockGreen
+{
+	background:#00B8A6;
+	height:280px;
+	width:42%;
+	float:left;
+	color:#FFFFFF;
+}
+
+.tileBlockGreen h6
+{
+	margin:0;
+	padding:5% 0 0 24%;
+	font-size:36px;
+}
+
+.tileBlockGreen h7
+{
+	margin-left:10%;
+}
+
+.tileBlockGreen h8
+{
+	margin-left:30%;
+}
+
+.tileBlockGreen h9
+{
+	margin-left:25%;
+}
+
+.tileBlockGreen hr
+{
+	color:#FFFFFF;
+	width:90%;
+}
+
+.tileBlockGreen .firstColoum
+{
+	margin-left:7%;
+	float:left;
+}
+
+.tileBlockGreen .secondColoum
+{
+	margin-left:20%;
+	float:left;
+}
+
+.tileBlockGreen .thirdColoum
+{
+	margin-left:25%;
+	float:left;	
+}

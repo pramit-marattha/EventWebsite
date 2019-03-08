@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/pramit_style.css" />
+<title> HTML and CSS recap </title>
+</head>
+
+<body>
+        <script>
+function goBack() {
+    window.history.back()
+}
+</script>
+<button onclick="goBack()"class="Go_back">&laquo;GO Back!!</button>
+	<div id="Main_Tiles">
+         
+    	<div class="words">
+        	<h1><span class="enlarge">W</span>eb <span class="enlarge">A</span>pplication <span class="enlarge">T</span>echnology</h1>
+        </div>
+        <div class="tileBlockOrange">
+        	<h2> Links </h2>
+            <ul>
+            	<li><a href="http://chubkins.herokuapp.com/en"> Chubkins </a></li>
+                <li><a href="https://www.w3schools.com/html/"> W3 School </a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/"> Learn Web Dev </a></li>
+                <li><a href="https://htmlcolorcodes.com/">Color Reference</a></li>
+            </ul>
+        </div>
+        <div class="tileBlockYellow">
+        	<h3> WAT Lecture </h3>
+            <h4> 12:00-13:00 LTB </h4>
+            <h5> Every <span class="huge">WED</span></h5>
+        </div>
+        <br/>
+        <div class="tileBlockGreen">
+        	<h6> WAT Assessment </h6> <br>
+            <h7> Title </h7>
+            <h8> Weight </h8>
+            <h9> Due </h9>
+            <hr/>
+            <div class="firstColoum">
+                <p> Work in progress </p>
+                <p> Portfolio </p>
+                <p> Phase exam </p>
+            </div>
+            <div class="secondColoum">
+            	<p> 20% </p>
+                <p> 50% </p>
+                <p> 30% </p>
+            </div>
+            <div class="thirdColoum">
+            	<p> SEE VLE </p>
+                <p> SEE VLE </p>
+                <p> SEE VLE </p>
+            </div>
+        </div>
+        <div class="tileBlockWhite">
+        <br>
+        <h10> Search for Property </h10>
+        <form>
+        	<strong> Location: </strong><input class="location" type="text" placeholder="eg.this_or_that" />
+            <br>
+            <strong> Category: </strong><select name="suit">
+            <option value="flat"> flat </option>
+            <option value="appartment"> appartment </option></select>
+            Beds:<input class="thirdBox" type="text"/><br >
+            <input type="radio" name="price" value="price" /> <strong> Price </strong>
+            <input type="radio" name="Beds"  value="Beds" /> <strong> Beds </strong>
+            <input type="radio" name="Alpha" value="Alpha" /> <strong> Alpha </strong>
+            <br>
+            <input type="submit" name="submit" value="submit"/>
+        </form>
+        </div>
+    </div>  
+</body>
+</html>

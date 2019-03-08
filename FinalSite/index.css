@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+#standings {
+	margin-top: 50px;
+	height: 1282px;
+	width: 100%;
+	background-image: url(background.jpeg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-size: 16px;
+}
+#standings h3,#below-image h3 {
+	padding: 12px 25px;
+	font-family: 'Righteous', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+#driverstanding{
+	width: 80%;
+}
+#driverstanding th{
+	padding: 10px 10px;
+	font-family: 'Righteous', cursive;
+	font-size: 24px;
+	font-weight: bold;
+}
+#driverstanding td{
+	padding: 10px 10px 10px 10px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+}
+
